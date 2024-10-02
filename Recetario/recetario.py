@@ -28,7 +28,7 @@ def get_option():
                 print(f"Has seleccionado la opción {option}!")
                 return option
             else:
-                print("Error: Sólo debes ingresar un número entre 1 y 6.")
+                print("Error: Sólo debes ingresar un número entre 1 y 6!")
 
         except ValueError:
             print("Error: Por favor, debes ingresar un número válido!")
